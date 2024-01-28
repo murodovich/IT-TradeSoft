@@ -3,7 +3,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TradeSoft.Application.Absreactions;
 using TradeSoft.Infrastructure.Data;
-
 namespace TradeSoft.Infrastructure;
 public static class DependencyInjection
 {
