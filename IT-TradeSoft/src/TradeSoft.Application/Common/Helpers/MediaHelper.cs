@@ -1,5 +1,4 @@
-﻿using TradeSoft.Domain.Exceptions;
-using TradeSoft.Domain.Exceptions.ImageExceptions;
+﻿using TradeSoft.Domain.Exceptions.ImageExceptions;
 
 namespace TradeSoft.Application.Common.Helpers
 {
