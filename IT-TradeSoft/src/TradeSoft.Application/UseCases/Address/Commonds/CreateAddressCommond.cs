@@ -1,5 +1,4 @@
 ﻿using MediatR;
-
 namespace TradeSoft.Application.UseCases.Address.Commonds
 {
     public class CreateAddressCommond : IRequest<bool>
