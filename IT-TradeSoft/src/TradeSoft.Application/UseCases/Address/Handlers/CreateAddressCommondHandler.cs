@@ -2,7 +2,6 @@
 using TradeSoft.Application.Absreactions;
 using TradeSoft.Application.UseCases.Address.Commonds;
 
-
 namespace TradeSoft.Application.UseCases.Address.Handlers
 {
     public class CreateAddressCommondHandler : IRequestHandler<CreateAddressCommond, bool>
