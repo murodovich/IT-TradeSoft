@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Http;
-
 namespace TradeSoft.Application.FileServices
 {
     public interface IFileService
