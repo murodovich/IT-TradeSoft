@@ -6,8 +6,6 @@ namespace TradeSoft.Application.FileServices
 {
     public class FileService : IFileService
     {
-
-
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly string MEDIA = "media";
         private readonly string IMAGES = "images";
