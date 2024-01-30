@@ -1,5 +1,4 @@
 ﻿using TradeSoft.Domain.Exceptions.ImageExceptions;
-
 namespace TradeSoft.Application.Common.Helpers
 {
     public class MediaHelper
