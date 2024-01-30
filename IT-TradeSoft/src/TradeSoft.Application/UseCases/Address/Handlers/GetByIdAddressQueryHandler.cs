@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using TradeSoft.Application.Absreactions;
 using TradeSoft.Application.UseCases.Address.Query;
 using TradeSoft.Domain.Exceptions.AddressExceptions;
-
 namespace TradeSoft.Application.UseCases.Address.Handlers
 {
     public class GetByIdAddressQueryHandler : IRequestHandler<GetByIdAddressQuery, Domain.Entities.Addreses.Address>
