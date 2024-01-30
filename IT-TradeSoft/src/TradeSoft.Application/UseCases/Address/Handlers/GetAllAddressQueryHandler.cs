@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using TradeSoft.Application.Absreactions;
 using TradeSoft.Application.UseCases.Address.Query;
 using TradeSoft.Domain.Exceptions.AddressExceptions;
-
 namespace TradeSoft.Application.UseCases.Address.Handlers
 {
     public class GetAllAddressQueryHandler : IRequestHandler<GetAllAddressQuery, List<Domain.Entities.Addreses.Address>>
@@ -14,7 +13,6 @@ namespace TradeSoft.Application.UseCases.Address.Handlers
         {
             _dbContext = dbContext;
         }
-
         public async Task<List<Domain.Entities.Addreses.Address>> Handle(GetAllAddressQuery request, CancellationToken cancellationToken)
         {
 
