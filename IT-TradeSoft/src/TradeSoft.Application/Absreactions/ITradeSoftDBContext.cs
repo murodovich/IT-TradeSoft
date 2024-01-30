@@ -14,3 +14,4 @@ namespace TradeSoft.Application.Absreactions
         public Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }
+
