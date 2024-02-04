@@ -1,9 +1,7 @@
 using TradeSoft.Application;
 using TradeSoft.Application.FileServices;
 using TradeSoft.Infrastructure;
-
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
